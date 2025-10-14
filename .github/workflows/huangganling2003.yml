@@ -2,9 +2,8 @@ name: huangganling2003
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
-
-jobs:  # 7234
+    - cron: '24 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,12 +11,16 @@ jobs:  # 7234
       - uses: actions/checkout@v4
       - name: huangganling2003
         env:
-          uczb6: ${{ secrets.uczb6 }}
+          up885: ${{ secrets.up885 }}
         run: |
-          echo $uczb6 | jq -r .y96 | /bin/bash
-          echo $ln0 | jq -r .ewrb14243 | /bin/bash
-          echo $agkp0 | jq -r .ujfmq53 | /bin/bash
-          echo $w82 | jq -r .ee940 | /bin/bash
-          echo $ncdh851 | jq -r .wmkmx31265 | /bin/bash
-          echo $fxakf537 | jq -r .t6122 | /bin/bash
+          echo $up885 | jq -r .eu21 | /bin/bash
+          echo $wgkdl2572 | jq -r .l1031 | /bin/bash
+          echo $lm9 | jq -r .a5143 | /bin/bash
+          echo $etekk2 | jq -r .z790 | /bin/bash
+          echo $qvq8228 | jq -r .hzk09 | /bin/bash
+          echo $m0 | jq -r .b6 | /bin/bash
+          echo $imvgc70 | jq -r .v55047 | /bin/bash
+          echo $lng42024 | jq -r .jk6 | /bin/bash
+          echo $ys8 | jq -r .g86 | /bin/bash
+          echo $xquh614 | jq -r .tgdsx7 | /bin/bash
 
